@@ -1,16 +1,16 @@
-## trav.com - Travel website
-Explore destinations, plan trips, and discover adventures with travel.com – your ultimate travel companion.
+## Voya - Travel website
+Discover destinations, plan your journey, and explore unforgettable adventures with Voya.
 
 ## ✨ Demo
-![img](https://github.com/ch16447/trav.com/blob/main/trav.com.png?raw=true)
+![img](https://github.com/cheng1610/Voya/blob/main/voya.png)
 
 ## 🚀 Features
-- sightseeing and classification
+- Various kinds of galleries
 
-- search for travel destinations
+- Destination browsing
 
-- responsive design
-
+- Fully responsive layout
+  
 ## 🛠️ Tech Stack
 - Frontend: Nextjs、Typescript
 
@@ -24,6 +24,6 @@ Explore destinations, plan trips, and discover adventures with travel.com – yo
 ### Clone Repositories
 
 ```
-git clone https://github.com/ch16447/trav.com.git
-cd trav.com
+git clone https://github.com/ch16447/Voya.git
+cd Voya
 ```
