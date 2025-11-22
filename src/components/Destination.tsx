@@ -7,7 +7,7 @@ export default function Destination(){
         <>
            <section id="destination" className="section__container destination__section">
                 <div className="container">
-                    <div className="section__header revea__-bottom">
+                    <div className="section__header reveal__bottom">
                         <h2 className="section__title">Popular Destinations</h2>
                         <p className="section__description">Explore our handpicked selection of breathtaking locations</p>
                     </div>

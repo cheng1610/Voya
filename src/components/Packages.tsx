@@ -1,7 +1,9 @@
 import "@/src/styles/Packages.css"
+import { FaStar } from "react-icons/fa";
 import Image from 'next/image'
 
 export default function Packages(){
+
     return(
         <>
             <section id="packages" className="section__container packages__section">
@@ -18,9 +20,9 @@ export default function Packages(){
                                 <h3 className="package__title">Tropical Island Escape</h3>
                                 <p className="package__duration">7 Days / 6 Nights - $1,999</p>
                                 <ul className="package__features">
-                                    <li>Luxury Accommodation</li>
-                                    <li>Guided Tours</li>
-                                    <li>Snorkeling & Diving</li>
+                                    <li><FaStar className="star"/>Luxury Accommodation</li>
+                                    <li><FaStar className="star"/>Guided Tours</li>
+                                    <li><FaStar className="star"/>Snorkeling & Diving</li>
                                 </ul>
                                 <button className="btn btn__primary btn__full">View Details</button>
                             </div>
@@ -32,9 +34,9 @@ export default function Packages(){
                                 <h3 className="package__title">Mountain Adventure</h3>
                                 <p className="package__duration">5 Days / 4 Nights - $1,299</p>
                                 <ul className="package__features">
-                                    <li>Hiking Trails</li>
-                                    <li>Camping Experience</li>
-                                    <li>Local Cuisine</li>
+                                    <li><FaStar className="star"/>Hiking Trails</li>
+                                    <li><FaStar className="star"/>Camping Experience</li>
+                                    <li><FaStar className="star"/>Local Cuisine</li>
                                 </ul>
                                 <button className="btn btn__primary btn__full">View Details</button>
                             </div>
@@ -46,9 +48,9 @@ export default function Packages(){
                                 <h3 className="package__title">Desert Safari & Oasis</h3>
                                 <p className="package__duration">3 Days / 2 Nights - $899</p>
                                 <ul className="package__features">
-                                    <li>Dune Bashing</li>
-                                    <li>Camel Ride</li>
-                                    <li>Stargazing</li>
+                                    <li><FaStar className="star"/>Dune Bashing</li>
+                                    <li><FaStar className="star"/>Camel Ride</li>
+                                    <li><FaStar className="star"/>Stargazing</li>
                                 </ul>
                                 <button className="btn btn__primary btn__full">View Details</button>
                             </div>

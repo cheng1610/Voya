@@ -51,12 +51,14 @@
     padding-left: 1.5rem;
 }
 
-.package__features li::before {
-    content: '★';
+.star{
     position: absolute;
+    bottom: 0;
     left: 0;
-    color: var(--accent);
+    transform: translateY(-81%);
+    color: var(--star);
 }
+
 
 @media (width < 938px) {
     .packages__grid {

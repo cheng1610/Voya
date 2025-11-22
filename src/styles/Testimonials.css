@@ -35,6 +35,8 @@
 .testimonial__stars {
     color: #fbbf24;
     font-size: 1rem;
+    display: flex;
+    gap: .2rem;
 }
 
 .testimonial__text {

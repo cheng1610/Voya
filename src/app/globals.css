@@ -9,12 +9,10 @@
 :root {
     --primary: #0ea5e9;
     --secondary: #e9f2f8;
-    --accent: #f59e0b;
+    --star: #f59e0b;
     --foreground: #272729;
     --muted: #64748b;
     --white: #ffffff;
-    --gradient-start: #14a1e2;
-    --gradient-end: #06b6d4;
 }
 
 :root{
@@ -55,7 +53,7 @@ body {
 
 .btn__primary {
     transition: .3s ease;
-    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+    background: var(--primary);
     color: var(--white);
 }
 

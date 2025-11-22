@@ -37,9 +37,6 @@
     font-size: 1.9rem;
     font-weight: 700;
     color: var(--primary);
-    background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .nav__links {

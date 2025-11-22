@@ -94,21 +94,6 @@
     background: var(--secondary);
 }
 
-.btn__white {
-    background: var(--white);
-    color: var(--primary);
-    padding: 0.5rem 1.5rem;
-    border-radius: 9999px;
-}
-
-.btn__white:hover {
-    background: rgba(255, 255, 255, 0.5);
-}
-
-.btn__full {
-    width: 100%;
-}
-
 @media  (width < 1125px) {
 
     .hero__grid{
